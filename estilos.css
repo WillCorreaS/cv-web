@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{box-sizing: border-box;}
+
+:root{
+    --cor-texto:#858585;
+    --cor-fundo:#2e2e2e;
+    --cor-header:#000;
+    --cor-intermediaria:#adadad;
+}
+
+html{font-size: 16px;}
+
+body{
+    color: var(--cor-texto);
+    font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+    background-color: var(--cor-fundo);
+}
+
+body, h1, h2, p, figure, nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.limitador { width: 95vw; margin: auto;}
+
+h1{
+    color: var(--cor-intermediaria);
+}
+
+img{max-width: 100%; border-radius: 50%; box-shadow: black 3px 3px 20px; width: 40%;;}
+
+a{ text-decoration: none; color: var(--cor-texto);}
+
+header div p {
+    /* background-color: greenyellow; */
+    font-size: 0.7rem;
+    text-align: start;
+    transform: translateY(-10px);
+}
+
+header div h1 {
+    /* background-color: yellow; */
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+
+}

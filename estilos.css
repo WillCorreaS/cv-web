@@ -1,7 +1,6 @@
 /* Cor de Fundo: #F8F8F8
    Cor de Fonte: #473f33
-   Font de textos: Garbata
-   Fonte de Titulo: Hatton */
+*/
 *{box-sizing: border-box; margin: 0; max-width: 100%;}
 
 /* .limitador {margin: 0; width: 90vw;} */
@@ -15,8 +14,6 @@ body {
 }
 
 .limitador { max-width: 800px; margin: auto; padding: 20px;}
-  
-}
 
 header img { 
   margin-left: auto;
